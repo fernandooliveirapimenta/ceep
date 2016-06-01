@@ -8,9 +8,12 @@
   <link rel="stylesheet" href="css/block/card.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/base.css">
+
+
 </head>
 <body>
   <header class="header container">
+
     <h1 class="header-title">Ceep</h1>
     <nav  class="header-menu">
       <ul>
@@ -26,50 +29,53 @@
 
   <section class="container">
     <ol>
-      <li class="card card_colorFirst">
-        <nav>
+      <li class="card" data-color="first">
+        <nav class="wrap-card-colors">
           <ul>
-            <li class="card_colors"><a href="">Amarelo</a></li>
-            <li class="card_colors"><a href="">Verde</a></li>
-            <li class="card_colors"><a href="">Azul</a></li>
-            <li class="card_colors"><a href="">Vermelho</a></li>
+            <li class="card_colors isActive" data-color="first"><a href="">Azul</a></li>
+            <li class="card_colors " data-color="second"><a href="">Verde</a></li>
+            <li class="card_colors" data-color="third"><a href="">Azul</a></li>
+            <li class="card_colors " data-color="fourth"><a href="">Vermelho</a></li>
           </ul>
         </nav>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat explicabo corporis, ipsam voluptatum laborum sequi iste, qui odio dolorum dolores ad, molestiae itaque eum molestias suscipit labore. Porro reiciendis quasi inventore. Consectetur obcaecati velit blanditiis saepe eaque. Aut, nulla?
         </p>
       </li><!--
-      --><li class="card card_colorSecond">
-          <nav>
+      --><li class="card " data-color="second">
+          <nav class="wrap-card-colors">
             <ul>
-              <li class="card_colors"><a href="">Amarelo</a></li>
-              <li class="card_colors"><a href="">Verde</a></li>
-              <li class="card_colors"><a href="">Azul</a></li>
-              <li class="card_colors"><a href="">Vermelho</a></li>
+              <li class="card_colors" data-color="first"><a href="">Azul</a></li>
+              <li class="card_colors isActive" data-color="second"><a href="">Verde</a></li>
+              <li class="card_colors" data-color="third"><a href="">Azul</a></li>
+              <li class="card_colors " data-color="fourth"><a href="">Vermelho</a></li>
+
             </ul>
           </nav>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat explicabo corporis, ipsam voluptatum laborum sequi iste, qui odio dolorum dolores ad, molestiae itaque eum molestias suscipit labore. Porro reiciendis quasi inventore. Consectetur obcaecati velit blanditiis saepe eaque. Aut, nulla?
           </p>      </li><!--
-    --><li class="card card_colorThird">
-          <nav>
+    --><li class="card" data-color="third">
+          <nav class="wrap-card-colors">
             <ul>
-              <li class="card_colors"><a href="">Amarelo</a></li>
-              <li class="card_colors"><a href="">Verde</a></li>
-              <li class="card_colors"><a href="">Azul</a></li>
-              <li class="card_colors"><a href="">Vermelho</a></li>
+              <li class="card_colors" data-color="first"><a href="">Azul</a></li>
+              <li class="card_colors " data-color="second"><a href="">Verde</a></li>
+              <li class="card_colors isActive" data-color="third"><a href="">Azul</a></li>
+              <li class="card_colors " data-color="fourth"><a href="">Vermelho</a></li>
+
             </ul>
           </nav>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat explicabo corporis, ipsam voluptatum laborum sequi iste, qui odio dolorum dolores ad, molestiae itaque eum molestias suscipit labore. Porro reiciendis quasi inventore. Consectetur obcaecati velit blanditiis saepe eaque. Aut, nulla?
           </p>    </li><!--
-  --><li class="card">
-          <nav>
+  --><li class="card"  data-color="fourth">
+          <nav class="wrap-card-colors">
             <ul>
-              <li class="card_colors"><a href="">Amarelo</a></li>
-              <li class="card_colors"><a href="">Verde</a></li>
-              <li class="card_colors"><a href="">Azul</a></li>
-              <li class="card_colors"><a href="">Vermelho</a></li>
+              <li class="card_colors" data-color="first"><a href="">Azul</a></li>
+              <li class="card_colors " data-color="second"><a href="">Verde</a></li>
+              <li class="card_colors" data-color="third"><a href="">Azul</a></li>
+              <li class="card_colors isActive " data-color="fourth"><a href="">Vermelho</a></li>
+
             </ul>
           </nav>
           <p>
@@ -78,5 +84,7 @@
       Amarelo</li><!---->
     </ol>
   </section>
+  <script src="javascript/block/card.js"></script>
 </body>
+
 </html>
